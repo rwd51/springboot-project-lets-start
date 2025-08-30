@@ -1,0 +1,87 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+### Environment Configuration ###
+.env
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+**/src/main/resources/application-*.properties
+**/src/main/resources/application-*.yml
+!**/src/main/resources/application-example.properties
+!**/src/main/resources/application-example.yml
+
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### Database Files ###
+*.db
+*.sqlite
+*.h2.db
+*.mv.db
+*.trace.db
+
+### Security Files ###
+*.jks
+*.p12
+*.pem
+*.key
+*.crt
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+.directory
+
+
+### Temporary/Cache files ###
+tmp/
+temp/
+.cache/
+
+### Sensitive Data ###
+**/src/main/resources/secrets.properties
+**/src/main/resources/secrets.yml
+**/src/main/resources/credentials/
+
+### Generated Documentation ###
+javadoc/
+apidocs/
